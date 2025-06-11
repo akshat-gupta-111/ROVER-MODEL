@@ -1,0 +1,7 @@
+ultralytics
+faster-whisper
+sounddevice
+numpy
+opencv-python
+pyttsx3
+scipy
