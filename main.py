@@ -13,7 +13,7 @@ def main():
 
         if "a" in command.lower():
             print("🎥 Scanning for the ball...")
-            cap = cv2.VideoCapture(0)
+            cap = cv2.VideoCapture("sample_video_2.mp4")
 
             while True:
                 ret, frame = cap.read()
@@ -36,7 +36,7 @@ def main():
         elif "find" in command.lower():
             print("🔍 Searching and comparing ball...")
 
-            cap = cv2.VideoCapture(0)
+            cap = cv2.VideoCapture("sample_video_2.mp4")
 
             while True:
                 ret, frame = cap.read()
